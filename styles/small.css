@@ -1,0 +1,179 @@
+/* Base reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    align-items: center;
+    background-color: #0e4875;
+    padding: 10px;
+    margin-bottom: -1rem;
+    height: auto;
+  }
+
+  header img {
+    width: 100px;
+    height: 100px; 
+    text-align: left;
+  }
+
+  header h1 {
+    text-align: center;
+    color: #fff;
+
+  }
+
+  nav {
+    background-color: #333;
+    margin-top: 0;
+    margin: 0 auto;
+  }
+ 
+  nav ul {
+    list-style-type: none;
+  }
+
+  nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+  }
+
+ nav a:hover {
+    border: 1px solid #fff;
+  }
+
+  .active {
+    color: yellow;
+  }
+
+  @media (max-width: 640px) {
+  .nav-links {
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-links.active {
+  display: flex;
+}
+
+  .menu-icon {
+    position: relative;
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;  /* Adjust vertical positioning */
+    right: 15px; /* Moves it to the right */
+    color: #fff;
+}
+
+.certificates {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.968);
+  text-align: center;
+  height: auto;
+}
+
+
+
+.filters button {
+  background-color: #031019d5; /* Blue background */
+  color: white; /* White text */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 5px; /* Rounded corners */
+  width: 80px;
+}
+
+/* Change text color when hovered */
+.filters button:hover {
+  color: yellow; /* Yellow text on hover */
+  background-color: #0e4875; /* Darker blue */
+}
+
+
+.courses {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.courses li {
+  margin: 8px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  width: auto;
+  height: 15px;
+}
+  }
+
+  .location  {
+    border: 1px solid #ddd;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+  .location img {
+    width: 200px; /* Makes the image responsive */
+    height: 200px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #0e4875;
+  padding: 2px;
+  margin: 5px 30px;
+}
+
+section h3 {
+  background-color: #0e4875;
+  padding-top: 0;
+  top: 0;
+  left: 0;
+  background-color: #0e4875; /* Match theme color */
+  color: white; /* Make text visible */
+  padding: 1px;
+  margin: 0; /* Remove default margins */
+  text-align: center;
+  border-top-left-radius: 8px; /* Rounded corners at top */
+  border-top-right-radius: 8px;
+  font-size: 25px;
+}
+  
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  footer p {
+    margin: 5px 0;
+    right: 10px;
+  }
+
+  .flag {
+    width: 50px;
+    margin-left: auto;
+   
+}
+  
+  footer p:last-of-type {
+    color: yellowgreen; /* Change this to your preferred color */
+    font-weight: bold; /* Makes it stand out */
+}
