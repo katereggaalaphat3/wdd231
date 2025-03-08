@@ -1,7 +1,6 @@
 /* Base reset */
 body {
     margin: 0;
-    font-family: 'Arial', sans-serif;
     line-height: 1.6;
   }
   
@@ -90,7 +89,6 @@ body {
   color: white; /* White text */
   border: none;
   padding: 10px 20px;
-  font-size: 16px;
   cursor: pointer;
   margin: 5px;
   border-radius: 5px; /* Rounded corners */
@@ -140,9 +138,7 @@ h2 {
 }
 
 section h3 {
-  background-color: #0e4875;
   padding-top: 0;
-  top: 0;
   left: 0;
   background-color: #0e4875; /* Match theme color */
   color: white; /* Make text visible */
@@ -174,6 +170,6 @@ section h3 {
 }
   
   footer p:last-of-type {
-    color: yellowgreen; /* Change this to your preferred color */
+    color: rgb(220, 225, 164); /* Change this to your preferred color */
     font-weight: bold; /* Makes it stand out */
 }

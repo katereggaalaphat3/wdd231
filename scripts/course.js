@@ -17,7 +17,7 @@ function displayCourses(filter) {
     filteredCourses.forEach(course => {
         const li = document.createElement("li");
         li.textContent = course.name;
-        li.style.backgroundColor = course.completed ? "#28a745" : "#dc3545"; // Green for completed, red for not
+        li.style.backgroundColor = course.completed ? "#006400" : "#0056b3"; 
         courseList.appendChild(li);
     });
 }
