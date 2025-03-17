@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Business directory for the Chamber of Commerce.">
+    <meta name="author" content="Alaphat Mob Kateregga">
+    <meta property="og:title" content="Lakeland Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://yourwebsite.com/images/social-preview.jpg">
+    <meta property="og:url" content="https://yourwebsite.com/directory.html">
+    <meta property="og:description" content="Lakeland Chamber of Commerce supports local businesses and fosters economic growth.">
+    <title>Chamber Directory</title>
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <script defer src="scripts/weather.js"></script>
+    <script defer src="scripts/directory.js"></script>
+    <script defer src="scripts/dates.js"></script>
+    <script defer src="scripts/navigation.js"></script>
+</head>
+<body>
+    <header>
+        <button id="menu-button" aria-label="Menu">&#9776;</button>
+        <div class="logo">
+            <img src="images/logo.jpg" alt="Chamber Logo">
+            <h1>
+                <span class="line1">Lakeland</span> 
+                <span class="line2">Chamber of Commerce</span>
+            </h1>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <button class="cta">Keynote Tickets</button>
+        </div>
+        <h2>Home</h2>
+        <div class="info-section">
+            <div class="events">
+                <h3>Events</h3>
+            </div>
+            <div class="weather-container">
+                <h3>Current Weather</h3>
+                <div class="weather-content">
+                    <img id="weather-icon" src="" alt="Weather icon"> 
+                    <div>
+                        <p id="current-temp">--°F</p>
+                        <p id="weather-desc">Loading...</p>
+                    </div>
+                </div>
+                <p><strong>High:</strong> <span id="high-temp">--°</span></p>
+                <p><strong>Low:</strong> <span id="low-temp">--°</span></p>
+                <p><strong>Humidity:</strong> <span id="humidity">--%</span></p>
+                <p><strong>Sunrise:</strong> <span id="sunrise">--:--</span></p>
+                <p><strong>Sunset:</strong> <span id="sunset">--:--</span></p>
+            </div>            
+            <div class="forecast">
+                <h3>Weather Forecast</h3>
+                <div class="forecast-content">
+                <p>Today: <strong id="temp-today">--°F</strong></p>
+                <p>Wednesday: <strong id="temp-wed">--°F</strong></p>
+                <p>Thursday: <strong id="temp-thu">--°F</strong></p>
+                </div>
+            </div>
+        </div>
+        <div class="view-toggle">
+            <button id="grid-view">Grid View</button>
+            <button id="list-view">List View</button>
+        </div>
+        
+        <div id="members-container" class="grid-view"></div>
+    </main>
+    <footer>
+        <div class="footer-left">
+            <p><strong>Lakeland Chamber of Commerce</strong></p>
+            <p>35 Lake Morton Dr, Lakeland, FL 33801</p>
+            <p>Email: info@lakelandcc.org</p>
+            <p>+1 863-688-8551</p>
+        </div>
+        <div class="footer-center">
+            <a href="#"><img src="images/youtube.png" alt="YouTube"></a>
+            <a href="#"><img src="images/X.png" alt="X"></a>
+            <a href="#"><img src="images/linkedin.png" alt="LinkedIn"></a>
+        </div>
+        <div class="footer-right">
+            <p>WDD231 Class Project</p>
+            <p>Alaphat Mob Kateregga</p>
+            <p>&copy; <span id="copyright-year"></span> Lakeland Chamber of Commerce</p>
+            <p>Last Modification: <span id="last-modified"></span></p>
+        </div>
+    </footer>
+</body>
+</html>

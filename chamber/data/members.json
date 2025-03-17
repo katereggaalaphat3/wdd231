@@ -1,0 +1,77 @@
+{
+    "members": [
+      {
+        "name": "Elite Tech Solutions",
+        "address": "123 Innovation Drive, Tech City, CA 94016",
+        "phone": "555-123-4567",
+        "website": "https://www.elitetech.com",
+        "image": "elite-tech.jpg",
+        "membership_level": 3,
+        "email": "contact@elitetech.com"
+      },
+      {
+        "name": "Green Earth Organics",
+        "address": "456 Nature Ave, EcoTown, OR 97856",
+        "phone": "555-987-6543",
+        "website": "https://www.greenearthorganics.com",
+        "image": "green-earth.jpg",
+        "membership_level": 2,
+        "email": "info@greenearth.com"
+      },
+      {
+        "name": "Sunset Diner",
+        "address": "789 Food Street, Flavor City, TX 75001",
+        "phone": "555-222-7890",
+        "website": "https://www.sunsetdiner.com",
+        "image": "sunset-diner.jpg",
+        "membership_level": 1,
+        "email": "support@sunsetdiner.com"
+      },
+      {
+        "name": "Mountain Adventure Gear",
+        "address": "321 Summit Road, Adventure Town, CO 80401",
+        "phone": "555-333-6789",
+        "website": "https://www.mountaingear.com",
+        "image": "mountain-gear.jpg",
+        "membership_level": 3,
+        "email": "sales@mountaingear.com"
+      },
+      {
+        "name": "Swift Financial Services",
+        "address": "654 Money Blvd, Finance City, NY 10005",
+        "phone": "555-444-5678",
+        "website": "https://www.swiftfinancial.com",
+        "image": "swift-financial.jpg",
+        "membership_level": 2,
+        "email": "info@swiftfinancial.com"
+      },
+      {
+        "name": "Blue Ocean Travel",
+        "address": "987 Beachside Lane, Paradise, FL 33101",
+        "phone": "555-555-4321",
+        "website": "https://www.blueoceantravel.com",
+        "image": "blue-ocean.jpg",
+        "membership_level": 1,
+        "email": "contact@blueoceantravel.com"
+      },
+      {
+        "name": "Bright Future Education",
+        "address": "159 Academy Way, Knowledge City, MA 02110",
+        "phone": "555-666-2109",
+        "website": "https://www.brightfutureedu.com",
+        "image": "bright-future.jpg",
+        "membership_level": 3,
+        "email": "admin@brightfutureedu.com"
+      },
+      {
+        "name": "NextGen Tech Solutions",
+        "address": "742 Innovation Drive, Silicon Valley, CA 94025",
+        "phone": "555-789-4561",
+        "website": "https://www.nextgentech.com",
+        "image": "nextgen-tech.jpg",
+        "membership_level": 2,
+        "email": "contact@nextgentech.com"
+    }    
+    ]
+  }
+  
