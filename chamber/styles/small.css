@@ -109,7 +109,7 @@ header h1 {
 
 .member-card a {
     display: inline-block;
-    background-color: #5a4fcf;
+    background-color: #3f32b5;
     color: #fff;
     text-decoration: none;
     padding: 5px 10px;
@@ -123,33 +123,6 @@ header h1 {
 
 .view-toggle button {
     display: none;
-}
-
-footer {
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    flex-wrap: wrap;
-    color: #000;
-    font-size: larger;
-}
-
-.footer-center,
-.footer-left,
-.footer-right {
-    flex: 1;
-    min-width: 200px;
-}
-
-.footer-center a img {
-    width: 80px;
-    margin: 0 10px;
-    border-radius: 60px;
-}
-
-#last-modified {
-    color: red;
-    font-weight: 700;
 }
 
 /* Responsive Design for Mobile Screens */
@@ -288,7 +261,7 @@ footer {
     }
 
     .info-section h3 {
-        background-color: #017fb1;
+        background-color: #00527a;
         color: #fff;
         padding: 8px;
         margin: -15px -15px 10px;
@@ -336,4 +309,31 @@ footer {
     .footer-center {
         margin: 10px 0;
     }
+}
+
+footer {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+    color: #000;
+    font-size: larger;
+}
+
+.footer-center,
+.footer-left,
+.footer-right {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-center a img {
+    width: 80px;
+    margin: 0 10px;
+    border-radius: 60px;
+}
+
+#last-modified {
+    color: #8B0000;
+    font-weight: 700;
 }
