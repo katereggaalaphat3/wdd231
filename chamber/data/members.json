@@ -5,7 +5,7 @@
         "address": "123 Innovation Drive, Tech City, CA 94016",
         "phone": "555-123-4567",
         "website": "https://www.elitetech.com",
-        "image": "elite-tech.jpg",
+        "image": "elite-tech.webp",
         "membership_level": 3,
         "email": "contact@elitetech.com"
       },
@@ -14,7 +14,7 @@
         "address": "456 Nature Ave, EcoTown, OR 97856",
         "phone": "555-987-6543",
         "website": "https://www.greenearthorganics.com",
-        "image": "green-earth.jpg",
+        "image": "green-earth.webp",
         "membership_level": 2,
         "email": "info@greenearth.com"
       },
@@ -23,7 +23,7 @@
         "address": "789 Food Street, Flavor City, TX 75001",
         "phone": "555-222-7890",
         "website": "https://www.sunsetdiner.com",
-        "image": "sunset-diner.jpg",
+        "image": "sunset-diner.webp",
         "membership_level": 1,
         "email": "support@sunsetdiner.com"
       },
@@ -32,7 +32,7 @@
         "address": "321 Summit Road, Adventure Town, CO 80401",
         "phone": "555-333-6789",
         "website": "https://www.mountaingear.com",
-        "image": "mountain-gear.jpg",
+        "image": "mountain-gear.webp",
         "membership_level": 3,
         "email": "sales@mountaingear.com"
       },
@@ -41,7 +41,7 @@
         "address": "654 Money Blvd, Finance City, NY 10005",
         "phone": "555-444-5678",
         "website": "https://www.swiftfinancial.com",
-        "image": "swift-financial.jpg",
+        "image": "swift-financial.webp",
         "membership_level": 2,
         "email": "info@swiftfinancial.com"
       },
@@ -50,7 +50,7 @@
         "address": "987 Beachside Lane, Paradise, FL 33101",
         "phone": "555-555-4321",
         "website": "https://www.blueoceantravel.com",
-        "image": "blue-ocean.jpg",
+        "image": "blue-ocean.webp",
         "membership_level": 1,
         "email": "contact@blueoceantravel.com"
       },
@@ -59,7 +59,7 @@
         "address": "159 Academy Way, Knowledge City, MA 02110",
         "phone": "555-666-2109",
         "website": "https://www.brightfutureedu.com",
-        "image": "bright-future.jpg",
+        "image": "bright-future.webp",
         "membership_level": 3,
         "email": "admin@brightfutureedu.com"
       },
@@ -68,7 +68,7 @@
         "address": "742 Innovation Drive, Silicon Valley, CA 94025",
         "phone": "555-789-4561",
         "website": "https://www.nextgentech.com",
-        "image": "nextgen-tech.jpg",
+        "image": "nextgen-tech.webp",
         "membership_level": 2,
         "email": "contact@nextgentech.com"
     }    
